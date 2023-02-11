@@ -26,6 +26,10 @@ body{
     color: #EEEEEE;
 }
 
+.menu-icon:hover {
+    color: #00ADB5;
+}
+
 /* Photo Section */
 .photo{
     background-image: url("../images/profile-img4.jpg");
@@ -86,12 +90,15 @@ hr{
     line-height: 1.5;
 }
 
+/* own projects */
+
 .title{
     font-weight: 700;
     font-size: 1.5rem;
     color:#EEEEEE;
     letter-spacing: 0.2rem;
     margin:3% 0 3% 0;
+
 }
 
 .name-projects{
@@ -99,26 +106,58 @@ hr{
     font-size: 0.8rem;
     color:#00ADB5;
     letter-spacing: 0.2rem;
-
 }
 
 .stack-app{
     font-family: 'Ubuntu';
-    font-weight: 300;
+    font-weight: 400;
     font-size: 0.6rem;
     color:#EEEEEE;
     letter-spacing: 0.2rem;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+
+#own-projects{
+    margin: 5% auto;
 }
 .own-description{
     font-weight: 200;
     font-size: 0.8rem;
     color:#EEEEEE;
     line-height: 1.5;
-    margin: 3% auto;
+    margin: 20px 0;
 }
 
-.btn-git-pregnant{
+/* .btn-git-icon{
     margin-left: 60%;
+    display: inline;
+
+} */
+
+/* other projects */
+
+.project-row{
+    position: relative;
 }
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+a:hover{
+    color:#00ADB5;
+}
+
+.btn-git-icon{
+    position: absolute;
+    right: 2%;
+}
+
 
 
